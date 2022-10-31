@@ -50,10 +50,66 @@
             --darkblue3: #0A043C;
             --hotblue3: #03506F;
             --grey3: #BBBBBB;
-            --lightpink3: #FFE3D8
+            --lightpink3: #FFE3D8;
     }
 
-.contenedor{
-    height: 500px;
-    width: 500px;
-}
+
+/*Start login*/
+    .contenedor{
+        height: 50px;
+        width: 50px;
+        background-size: contain;
+    }
+
+    .contenedor_login_sm{
+        display: flex;
+        width: 60%;
+        height: 25rem;
+        margin: auto;
+        border-radius: 1.5rem;
+        margin-top: 15rem;
+        box-shadow: 5px 5px 15px var(--grey3);
+    }
+
+    .img_login_sm{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .form_login_sm{
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        width: 50%;
+        height: auto;
+        padding: 1rem;
+        border-radius: 1.5rem 0 0 1.5rem;
+        background-color: var(--beige2);
+    }
+
+    .form_login_inputs_sm h3{
+        font-family: 'Bitter', serif;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .form_login_inputs_sm label{
+        font-family: 'Bitter', serif;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .form_login_inputs_sm input{
+        align-content: center;
+        margin-bottom: 2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .form_login_inputs_sm button{
+        
+    }
+
+/*End login*/   
