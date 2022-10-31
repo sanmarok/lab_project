@@ -53,4 +53,7 @@
             --lightpink3: #FFE3D8
     }
 
-    
+.contenedor{
+    height: 500px;
+    width: 500px;
+}
