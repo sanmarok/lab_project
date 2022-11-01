@@ -18,22 +18,24 @@
 
 <!--Start authentication-->
   <div class="header">
-
+      <!--Import header-->
   </div>
-  <div class="conteiner_login_sm">
-    <div class="conteiner_form_login_sm" id="conteiner_form_login_sm">
-      <img src="./image/la_harinera_favicon.png" alt="" srcset="">
-      <form action="" method="post" id="form_login_sm">
-        <h3>Bienvenido</h3>
-        <label for="user">Usuario o email</label>
-        <input type="text" name="user" id="user" required>
-        <label for="user">Contraseña</label>
-        <input type="password" name="pass" id="user" required>
-        <button type="submit">Ingresar</button>
-        <a href="#" onclick="changeformtoregister()"><p>Registrarse en La Harinera</p></a>
-      </form>
-    </div>
+    <!--Login-->
+      <div class="conteiner_login_sm">
+        <div class="conteiner_form_login_sm" id="conteiner_form_login_sm">
+          <img src="./image/la_harinera_favicon.png" alt="" srcset="">
+          <form action="" method="post" id="form_login_sm">
+            <h3>Bienvenido</h3>
+            <label for="user">Usuario o email</label>
+            <input type="text" name="user" id="user" required>
+            <label for="user">Contraseña</label>
+            <input type="password" name="pass" id="pass" required>
+            <button type="submit">Ingresar</button>
+            <a href="#" onclick="changeformtoregister()"><p>Registrarse en La Harinera</p></a>
+          </form>
+        </div>
 
+  <!--Register-->
     <div class="conteiner_form_register_sm" id="conteiner_form_register_sm">
       <img src="./image/la_harinera_favicon.png" alt="" srcset="">
       <form action="" method="post" id="form_login_sm">
@@ -45,7 +47,7 @@
         <label for="user">Usuario o email</label>
         <input type="text" name="user" id="user" required>
         <label for="user">Contraseña</label>
-        <input type="password" name="pass" id="user" required>
+        <input type="password" name="pass" id="pass" required>
         <button type="submit">Registrarse</button>
         <a href="#" onclick="changeformtologin()"><p>Ingresa en La Harinera</p></a>
       </form>
