@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Harinera</title>
+    <!--Icons-->
+      <link rel="shortcut icon" href="./image/la_harinera_favicon.ico" type="image/x-icon">
+      <script src="https://kit.fontawesome.com/dcd8a6e406.js" crossorigin="anonymous"></script>
+    <!--Styles-->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    <!--Scripts-->
+        <script src="script.js"></script>
+</head>
+<body>
+
+<!--Start authentication-->
+  <div class="header">
+
+  </div>
+  <div class="conteiner_login_sm">
+    <div class="conteiner_form_login_sm" id="conteiner_form_login_sm">
+      <img src="./image/la_harinera_favicon.png" alt="" srcset="">
+      <form action="" method="post" id="form_login_sm">
+        <h3>Bienvenido</h3>
+        <label for="user">Usuario o email</label>
+        <input type="text" name="user" id="user" required>
+        <label for="user">Contraseña</label>
+        <input type="password" name="pass" id="user" required>
+        <button type="submit">Ingresar</button>
+        <a href="#" onclick="changeformtoregister()"><p>Registrarse en La Harinera</p></a>
+      </form>
+    </div>
+
+    <div class="conteiner_form_register_sm" id="conteiner_form_register_sm">
+      <img src="./image/la_harinera_favicon.png" alt="" srcset="">
+      <form action="" method="post" id="form_login_sm">
+        <h3>Registrate</h3>
+        <label for="user">Nombre</label>
+        <input type="text" name="name" id="name" required>
+        <label for="user">Apellido</label>
+        <input type="text" name="lastname" id="lastname" required>
+        <label for="user">Usuario o email</label>
+        <input type="text" name="user" id="user" required>
+        <label for="user">Contraseña</label>
+        <input type="password" name="pass" id="user" required>
+        <button type="submit">Registrarse</button>
+        <a href="#" onclick="changeformtologin()"><p>Ingresa en La Harinera</p></a>
+      </form>
+  </div>
+<!--End authentication--> 
+</body>
+</html>
