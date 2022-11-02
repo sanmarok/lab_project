@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="https://kit.fontawesome.com/dcd8a6e406.js" crossorigin="anonymous"></script>
     <title>Perfil de Usuario</title>
 
 </head>
@@ -13,37 +15,171 @@
     <header></header>
 
     <section>
+        
         <nav>
-            <div class="">Mis pedidos</div>
-            <div class="">Realizar un pedido</div>
-            <div class="">Acerca de</div>
+            <div class="nav-item" id="nav-item1">Mis pedidos</div>
+            <div class="nav-item" id="nav-item2">Realizar un pedido</div>
         </nav>
-        <div class="misPedidos">
-            <div class="mp-pedido">
-                <div class="mp-imagen">
-                    <img src="https://i.blogs.es/95d4c3/harina-trigo-tipos/1024_2000.jpg">
-                </div>
-                <div class="mp-datos">
-                    <div class="mp-proddata">
-                        <p class="mp-pd-title">Producto: </p>
-                        <p class="mp-prod">Harina</p>
+
+        <div class="pedidoConteiner">
+            <div class="misPedidos" id="pedidos">
+
+                <div class="mp-pedido">
+                    <div class="mp-imagen">
+                        <img src="https://i.blogs.es/95d4c3/harina-trigo-tipos/1024_2000.jpg">
+                        <div class="mp-i-sombrita"></div>
                     </div>
-                    <div class="mp-proddata">
-                        <p class="mp-pd-title">Precio:</p>
-                        <p class="mp-precio">$170</p>
+                    <div class="mp-datos">
+                        <div class="mp-proddata">
+                            <i class="fa-solid fa-wheat-awn" style="color: #ba9f74; font-size: 25px;"></i>
+                            <p class="mp-prod">Harina</p>
+                            <div class="mp-line"></div>
+                        </div>
+                        <div class="mp-descripcion">
+                            <p class="mp-pd-title">Descripción:</p>
+                            <p class="mp-pd-descr">Harina blanca 0000 extra fina, con extra trigo.</p>
+                        </div>
+                        <div class="mp-proddata-price">
+                            <p class="mp-pd-title">Precio/Kg:</p>
+                            <p class="mp-precio">$250</p>
+                        </div>
+                        <div class="mp-proddata-price">
+                            <p class="mp-pd-title">Total:</p>
+                            <p class="mp-precio">$1250</p>
+                        </div>
                     </div>
+
+                    <div class="mp-status">
+                        <p class="mp-s-text"> >> Por entregar</p>
+                    </div>
+                    <div class="cancelar">X</div>
                 </div>
-                <div class="mp-descripcion">
-                    <p class="mp-pd-title">Descripción:</p>
-                    <p class="mp-pd-descr">Harina blanca 0000 extra fina, con extra trigo.</p>
+
+                <div class="mp-pedido">
+                    <div class="mp-imagen">
+                        <img src="https://i.blogs.es/95d4c3/harina-trigo-tipos/1024_2000.jpg">
+                        <div class="mp-i-sombrita"></div>
+                    </div>
+                    <div class="mp-datos">
+                        <div class="mp-proddata">
+                            <i class="fa-solid fa-wheat-awn" style="color: #ba9f74; font-size: 25px;"></i>
+                            <p class="mp-prod">Harina</p>
+                            <div class="mp-line"></div>
+                        </div>
+                        <div class="mp-descripcion">
+                            <p class="mp-pd-title">Descripción:</p>
+                            <p class="mp-pd-descr">Harina blanca 0000 extra fina, con extra trigo.</p>
+                        </div>
+                        <div class="mp-proddata-price">
+                            <p class="mp-pd-title">Precio/Kg:</p>
+                            <p class="mp-precio">$250</p>
+                        </div>
+                        <div class="mp-proddata-price">
+                            <p class="mp-pd-title">Total:</p>
+                            <p class="mp-precio">$1250</p>
+                        </div>
+                    </div>
+
+                    <div class="mp-status">
+                        <p class="mp-s-text"> >> Por entregar</p>
+                    </div>
+                    <div class="cancelar">X</div>
                 </div>
+
+                <div class="mp-pedido">
+                    <div class="mp-imagen">
+                        <img src="https://i.blogs.es/95d4c3/harina-trigo-tipos/1024_2000.jpg">
+                        <div class="mp-i-sombrita"></div>
+                    </div>
+                    <div class="mp-datos">
+                        <div class="mp-proddata">
+                            <i class="fa-solid fa-wheat-awn" style="color: #ba9f74; font-size: 25px;"></i>
+                            <p class="mp-prod">Harina</p>
+                            <div class="mp-line"></div>
+                        </div>
+                        <div class="mp-descripcion">
+                            <p class="mp-pd-title">Descripción:</p>
+                            <p class="mp-pd-descr">Harina blanca 0000 extra fina, con extra trigo.</p>
+                        </div>
+                        <div class="mp-proddata-price">
+                            <p class="mp-pd-title">Precio/Kg:</p>
+                            <p class="mp-precio">$250</p>
+                        </div>
+                        <div class="mp-proddata-price">
+                            <p class="mp-pd-title">Total:</p>
+                            <p class="mp-precio">$1250</p>
+                        </div>
+                    </div>
+
+                    <div class="mp-status">
+                        <p class="mp-s-text"> >> Por entregar</p>
+                    </div>
+                    <div class="cancelar">X</div>
+                </div>
+
 
             </div>
 
+            <div class="hacerPedido" id="mkPedido">
+
+                <div class="hp-display">
+                    <div class="hp-datos">
+                        <div class="hp-d-title">
+                            <p>Orden de Compra</p>
+                            <div class="hp-dt-linea"></div>
+                        </div>
+                        <div class="hp-d-campos">
+                            <div class="hp-d-usuario">
+                                <div class="hp-du-user">
+                                    <p><b>Usuario:</b> Esteban Quito</p>
+                                </div>
+                                <div class="hp-du-dir">
+                                    <p><b>Dirección destino: </b></p>
+                                    <input type="text" placeholder="Ej: Rivadavia 345">
+                                    <i class="fa fa-exclamation-triangle" style="color: #E45826; font-size: 20px;" title="Campo obligatorio. Por defecto toma la dirección del cliente."></i>
+                                </div>
+                            </div>
+
+                            <select>
+                                <option>Harina 000 Blanca Flor</option>
+                                <option>Harina 0000 Blanca Flor</option>
+                                <option>Harina Integral Pureza</option>
+                                <option>Harina Derivada</option>
+                                <option>Harina Tipo C++</option>
+                            </select>
+                            
+                            <div class="hp-d-precio">
+                                <p><b>Precio/Kg: </b> $240</p>
+                            </div>
+                            <div class="hp-d-cantidad">
+                                <p><b>Solicitar cantidad:</b></p>
+                                <input type="number" value="1">
+                            </div>
+                            <div class="hp-d-total">
+                                <p><b>Total:</b> $240</p>
+                            </div>
+                        </div>
+                        <div class="hp-d-botonera">
+                            <input type="button" value="Solicitar">
+                        </div>
+                    </div>
+
+                    <div class="hp-producto">
+                        <div class="hp-p-imagen">
+                            <img src="https://i.blogs.es/95d4c3/harina-trigo-tipos/1024_2000.jpg">
+                        </div>
+                        <div class="hp-p-descripcion">
+                            <p>Harina a base de trigo, ultra refinada.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </section>
 
     <footer></footer>
-
+    <script src="js/profile.js"></script>
 </body>
 </html>
