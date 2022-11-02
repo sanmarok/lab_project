@@ -30,31 +30,32 @@
 </head>
 <body>
 
-<!--Start authentication-->
-  <div class="header">
+<div class="header">
       <!--Import header-->
   </div>
-    <!--Login-->
-      <div class="conteiner_login_sm">
-        <div class="conteiner_form_login_sm" id="conteiner_form_login_sm">
-          <img src="./image/la_harinera_favicon.png" alt="" srcset="">
-          <form action="" method="post" id="form_login_sm">
-            <h3>Bienvenido</h3>
-            <label for="user">Usuario o email</label>
-            <input type="text" name="username" id="username" required>
-            <label for="user">Contraseña</label>
-            <input type="password" name="password" id="pass" required>
-            <p class="login_error_sm"><?php echo @$user_login->error ?></p>
-            <p class="login_success_sm"><?php echo @$user_login->success ?></p>
-            <button type="submit" name="submit_login">Ingresar</button>
-            <a href="#" onclick="changeformtoregister()"><p>Registrarse en La Harinera</p></a>
-          </form>
-        </div>
+<!--Start authentication-->
+
+  <!--Login-->
+    <div class="conteiner_login_sm">
+      <div class="conteiner_form_login_sm" id="conteiner_form_login_sm">
+        <img src="./image/la_harinera_favicon.png" alt="" srcset="">
+        <form action="" method="post" id="form_login_sm">
+          <h3>Bienvenido</h3>
+          <label for="user">Usuario o email</label>
+          <input type="text" name="username" id="username" required>
+          <label for="user">Contraseña</label>
+          <input type="password" name="password" id="pass" required>
+          <p class="login_error_sm"><?php echo @$user_login->error ?></p>
+          <p class="login_success_sm"><?php echo @$user_login->success ?></p>
+          <button type="submit" name="submit_login">Ingresar</button>
+          <a href="#" onclick="changeformtoregister()"><p>Registrarse en La Harinera</p></a>
+        </form>
+      </div>
 
   <!--Register-->
     <div class="conteiner_form_register_sm" id="conteiner_form_register_sm">
       <img src="./image/la_harinera_favicon.png" alt="" srcset="">
-      <form action="" method="post" id="form_login_sm">
+      <form action="" method="post" id="form_register_sm">
         <h3>Registrate</h3>
         <label for="user">Nombre</label>
         <input type="text" name="name" id="name" required>
@@ -72,6 +73,7 @@
         <a href="#" onclick="changeformtologin()"><p>Ingresa en La Harinera</p></a>
       </form>
   </div>
+
 <!--End authentication--> 
 </body>
 </html>
