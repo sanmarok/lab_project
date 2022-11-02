@@ -54,8 +54,8 @@
     }
 
 /*Start authetication*/
-    /*Start login*/
 
+    /*Start login*/
         .conteiner_login_sm{
             display: flex;
             width: 100%;
@@ -174,7 +174,6 @@
             width: 100%;
             height: 10vh;
         }
-        
     /*End login*/   
 
     /*Start register*/
@@ -282,4 +281,5 @@
             color: #000000;
         }
     /*End register*/
+
 /*End authetication*/
