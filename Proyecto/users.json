@@ -26,5 +26,12 @@
         "name": "usuario2",
         "lastname": "usuario2",
         "email": "usuario2@usuario2.com"
+    },
+    {
+        "username": "gonzalo.monetta",
+        "password": "$2y$10$4ump4SdD\/QxCyRvXbRACVe1Svs2zXhEaP3LG2Q36hWu0QrOh8AtAy",
+        "name": "Gonzalo",
+        "lastname": "Monetta",
+        "email": "gonzalo.monetta@gmail.com"
     }
 ]
