@@ -1,0 +1,12 @@
+[
+    {
+        "idPedido": 1,
+        "usuario": "Angel",
+        "idProducto": 10,
+        "cantidad": 5,
+        "direccion": "LAS HERAS 534",
+        "total": 3400,
+        "time": "2022-11-04",
+        "estado": 0
+    }
+]
