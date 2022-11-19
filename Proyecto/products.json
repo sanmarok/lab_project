@@ -1,91 +1,88 @@
 [
     {
-        "idProducto": "AAA111",
-        "nombre": "Producto 1",
-        "preciokilo" : 100,
+        "productname" : "Producto 1",
+        "price" : 100,
         "unit" : "kg",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_1.jpg",
-        "properties":{
-            "propiety1": "Propiedad 1",
-            "propiety2": "Propiedad 2",
-            "propiety3": "Propiedad 3",
-            "propiety4": "Propiedad 1",
-            "propiety5": "Propiedad 2",
-            "propiety6": "Propiedad 3",
-            "propiety7": "Propiedad 1"
-        }
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_1.jpg"
     },
     {
-        "idProducto": "AAA222",
-        "nombre": "Producto 2",
-        "preciokilo" : 100,
-        "unit" : "cm3",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_2.jpg",
-        "properties":{}
-    },
-    {
-        "idProducto": "CCC333",
-        "nombre": "Producto 3",
-        "preciokilo" : 100,
+        "productname" : "Producto 2",
+        "price" : 200,
         "unit" : "g",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_3.jpg",
-        "properties":{}
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
     },
     {
-        "idProducto": "ZZZ845",
-        "nombre": "Producto 4",
-        "preciokilo" : 100,
+        "productname" : "Producto 3",
+        "price" : 300,
         "unit" : "unidad",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_1.jpg",
-        "properties":{}
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_3.jpg"
+
     },
     {
-        "idProducto": "AAA252",
-        "nombre": "Producto 5",
-        "preciokilo" : 100,
+        "productname" : "Producto 4",
+        "price" : 400,
+        "unit" : "cm3",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_3.jpg"
+    },
+    {
+        "productname" : "Producto 5",
+        "price" : 500,
+        "unit" : "ml",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
+    },
+    {
+        "productname" : "Producto 6",
+        "price" : 100,
         "unit" : "kg",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_2.jpg",
-        "properties":{}
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...b",
+        "image": "placeholder_product_1.jpg"
     },
     {
-        "idProducto": "CCC373",
-        "nombre": "Producto 30",
-        "preciokilo" : 100,
+        "productname" : "Producto 7",
+        "price" : 200,
+        "unit" : "g",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_1.jpg"
+    },
+    {
+        "productname" : "Producto 8",
+        "price" : 300,
+        "unit" : "unidad",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_3.jpg"
+
+    },
+    {
+        "productname" : "Producto 9",
+        "price" : 400,
+        "unit" : "cm3",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
+    },
+    {
+        "productname" : "Producto 10",
+        "price" : 500,
+        "unit" : "ml",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
+    },
+    {
+        "productname" : "Producto 11",
+        "price" : 100,
         "unit" : "kg",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_3.jpg",
-        "properties":{}
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_1.jpg"
     },
     {
-        "idProducto": "AAA110",
-        "nombre": "Producto 33",
-        "preciokilo" : 100,
-        "unit" : "kg",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_2.jpg",
-        "properties":{}
-    },
-    {
-        "idProducto": "AAA789",
-        "nombre": "Producto 21",
-        "preciokilo" : 100,
-        "unit" : "caja",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_1.jpg",
-        "properties":{}
-    },
-    {
-        "idProducto": "CCC300",
-        "nombre": "Producto 300",
-        "preciokilo" : 100,
-        "unit" : "caja",
-        "descrip": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
-        "imagen": "placeholder_product_3.jpg",
-        "properties":{}
+        "productname" : "Producto 12",
+        "price" : 200,
+        "unit" : "g",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
     }
 ]

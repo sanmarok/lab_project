@@ -17,41 +17,16 @@
 <body>
 
 <?php
-    $json_data = file_get_contents('../products.json');
+        $json_data = file_get_contents('../products.json');
 
         $storageproducts = json_decode($json_data,true);
 
         foreach ($storageproducts as $product) {
-            if ($product['nombre'] == $_GET['product']){
-                echo('
-                    <div class="product_container_sm">
-                        <div>
-                            <img src="../public/image/'.$product['imagen'].'" alt="" srcset="">
-                        </div>
-                        <div>
-                            <p class="product_name">'.$product['nombre'].'</p>
-                            <p class="product_description">'.$product['descrip'].'</p>'
-                    );
-                
-          
-                    foreach($product['properties'] as $property){
-                        echo('<p class="data_tabulated">'.$property.'</p>');
-                    }
-
-                echo('
-                    <p class="price_tabulated">Precio: '.$product['preciokilo'].'/'.$product['unit'].'</p>
-                        </div>
-                    </div>
-                ');
+            if ($product['productname'] == $_GET['product']){
+                echo($product['productname'].'<br>'.$product['price'].'<br>'.$product['description']);
                 break;
             }
         }
 ?>
-
-<?php
-
-?>
-
-
 </body>
 </html>

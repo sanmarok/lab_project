@@ -27,15 +27,15 @@
 
         foreach ($storageproducts as $product) {
             echo('        
-            <a id= "link" href="productpage.php?product='.$product['nombre'].'" target="_blank">
+            <a id= "link" href="productpage.php?product='.$product['productname'].'" target="_blank">
                 <div class="product_card_sm">
-                    <img src="../public/image/'.$product['imagen'].'" alt="" srcset="">
+                    <img src="../public/image/'.$product['image'].'" alt="" srcset="">
                     <div class="product_text_sm">
-                        <p class="product_name">'.$product['nombre'].'</p>
+                        <p class="product_name">'.$product['productname'].'</p>
                         <br>
-                        <p class="product_description">'.$product['descrip'].'</p>
+                        <p class="product_description">'.$product['description'].'</p>
                         <br>
-                        <p class="product_price">Precio: $'.$product['preciokilo'].'/'.$product['unit'].'</p>
+                        <p class="product_price">Precio: $'.$product['price'].'/'.$product['unit'].'</p>
                         
                     </div>
                 </div>
