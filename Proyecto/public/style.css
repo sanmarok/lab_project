@@ -398,11 +398,9 @@
         text-align: justify;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        /*Overflow case
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow:hidden;
-        */
     }
 
     .product_card_sm .product_price{
@@ -416,3 +414,66 @@
 
 
 /*End products*/
+
+/*Start productpage*/
+    .product_container_sm{
+        display: flex;
+        margin: 1rem auto;
+        height: auto;
+        width: 90%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 2rem;
+        border-radius: 2%;
+    }
+
+    .product_container_sm div img {
+        border-radius: 2%;
+    }
+
+    .product_container_sm div .product_name{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 2rem;
+        margin-left: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .product_container_sm div{
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .product_container_sm div .product_description{
+        margin: 2.5rem 1rem;
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        line-height: 1.4rem;
+        /*Overflow case
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow:hidden;
+        */
+    }
+
+    .product_container_sm div .data_tabulated{
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        padding-bottom: 1rem;
+        text-align: left;
+        font-family: 'Bitter', serif;
+        font-weight: 400;
+    }
+
+    .product_container_sm div .price_tabulated{
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        text-align: right;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+/*End productpage*/
