@@ -39,7 +39,7 @@
     <div class="conteiner_login_sm">
       <div class="conteiner_form_login_sm" id="conteiner_form_login_sm">
         <img src="./image/la_harinera_favicon.png" alt="" srcset="">
-        <form action="" method="post" id="form_login_sm">
+        <form action="authentication.php?success=1" method="post" id="form_login_sm">
           <h3>Bienvenido</h3>
           <label for="user">Usuario o email</label>
           <input type="text" name="username" id="username" required>

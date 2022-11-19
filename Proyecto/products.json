@@ -1,0 +1,88 @@
+[
+    {
+        "productname" : "Producto 1",
+        "price" : 100,
+        "unit" : "kg",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_1.jpg"
+    },
+    {
+        "productname" : "Producto 2",
+        "price" : 200,
+        "unit" : "g",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
+    },
+    {
+        "productname" : "Producto 3",
+        "price" : 300,
+        "unit" : "unidad",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_3.jpg"
+
+    },
+    {
+        "productname" : "Producto 4",
+        "price" : 400,
+        "unit" : "cm3",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_3.jpg"
+    },
+    {
+        "productname" : "Producto 5",
+        "price" : 500,
+        "unit" : "ml",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
+    },
+    {
+        "productname" : "Producto 6",
+        "price" : 100,
+        "unit" : "kg",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...b",
+        "image": "placeholder_product_1.jpg"
+    },
+    {
+        "productname" : "Producto 7",
+        "price" : 200,
+        "unit" : "g",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_1.jpg"
+    },
+    {
+        "productname" : "Producto 8",
+        "price" : 300,
+        "unit" : "unidad",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_3.jpg"
+
+    },
+    {
+        "productname" : "Producto 9",
+        "price" : 400,
+        "unit" : "cm3",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
+    },
+    {
+        "productname" : "Producto 10",
+        "price" : 500,
+        "unit" : "ml",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
+    },
+    {
+        "productname" : "Producto 11",
+        "price" : 100,
+        "unit" : "kg",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_1.jpg"
+    },
+    {
+        "productname" : "Producto 12",
+        "price" : 200,
+        "unit" : "g",
+        "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+        "image": "placeholder_product_2.jpg"
+    }
+]

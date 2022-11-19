@@ -174,6 +174,24 @@
             width: 100%;
             height: 10vh;
         }
+
+        .login_error_sm{
+            text-align: center;
+            font-size: 1rem;
+            margin: 4px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            color: #FF0000;
+        }
+
+        .login_success_sm{
+            text-align: center;
+            font-size: 1rem;
+            margin: 4px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            color: #00FF00;
+        }
     /*End login*/   
 
     /*Start register*/
@@ -280,6 +298,121 @@
         {
             color: #000000;
         }
+
+        .register_error_sm{
+            text-align: center;
+            font-size: 1rem;
+            margin: 4px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            color: #FF0000;
+        }
+
+        .register_success_sm{
+            text-align: center;
+            font-size: 1rem;
+            margin: 4px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            color: #00FF00;
+        }
+
     /*End register*/
 
 /*End authetication*/
+
+/*Start products*/
+
+    #link{
+        color: #000000;
+        text-decoration: none;
+        margin: auto;
+    }
+
+    .products_container_sm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 24rem;
+        background-image: url(./image/products_background.jpg);
+        background-position: center;
+        background-size: cover;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .products_container_sm p{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--blanco);
+        font-size: 5rem;
+        letter-spacing: 2rem;
+    }
+
+    .products_table_sm{
+        margin: auto;
+        margin-top: 2rem;
+        width: 90%;
+        background-color: transparent;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .product_card_sm{
+        margin: 2rem auto;
+        display: flex;
+        flex-grow: 0;
+        flex-direction: column;
+        width: 25rem;
+        height: auto;
+        border-radius: 2%;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+
+    .product_card_sm:hover{
+        transition: all .2s ease-in-out; 
+        transform: scale(1.05); 
+    }
+
+    .product_card_sm img{
+        margin: 1rem;
+        margin-top: 2rem;
+        width: auto;
+        height: 12rem;
+        border-radius: 2%;
+    }
+
+    .product_card_sm .product_name{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    .product_card_sm .product_description{
+        margin: 0.5rem 1rem;
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        /*Overflow case
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow:hidden;
+        */
+    }
+
+    .product_card_sm .product_price{
+        text-align: left;
+        margin: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+
+
+/*End products*/

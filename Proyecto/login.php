@@ -17,7 +17,7 @@
             
             $this->login();
         }
-        
+
         private function login(){
             foreach($this->stored_users as $user){
                 if ($user['username'] == $this->username){
@@ -29,7 +29,7 @@
                 }
             }
 
-            return $this->error = "Usuario o contraseña incorrecta";
+            return $this->error = '<h1 class = "login_error_sm">Usuario o contraseña incorrecta</h1>';
         }
     }
 ?>

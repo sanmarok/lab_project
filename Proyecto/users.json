@@ -1,37 +1,3 @@
 [
-    {
-        "username": "santiago.martinez",
-        "password": "$2y$10$ROpQHEhXz2RJNuNR\/klfOe6ZaKyoL1U8LI9DHPnj903yIYnkm9EtW",
-        "name": "Santiago",
-        "lastname": "Martinez",
-        "email": "email@prueba.com"
-    },
-    {
-        "username": "remo.benedetto",
-        "password": "$2y$10$7vD.olTKiStjxujtuVFpa.D8dl2ZRs\/LWmoTP6ovrfTLgKzJqqpfG",
-        "name": "Remo",
-        "lastname": "Benedetto",
-        "email": "remo.benedetto@laharinera.com"
-    },
-    {
-        "username": "usuario1",
-        "password": "$2y$10$jeHXHZ2NAmDzlyCtaofTXuojHt\/iZsJBASeSjz282kNJQToo4Legq",
-        "name": "Nombre1",
-        "lastname": "Apellido1",
-        "email": "usuario1@usuario1.com"
-    },
-    {
-        "username": "usuario2",
-        "password": "$2y$10$G8oFbCTZ7flBQ7ZPlbXCDedJ6fK8VQrUiOvDNqGbmo4r7xAsq\/e\/.",
-        "name": "usuario2",
-        "lastname": "usuario2",
-        "email": "usuario2@usuario2.com"
-    },
-    {
-        "username": "gonzalo.monetta",
-        "password": "$2y$10$4ump4SdD\/QxCyRvXbRACVe1Svs2zXhEaP3LG2Q36hWu0QrOh8AtAy",
-        "name": "Gonzalo",
-        "lastname": "Monetta",
-        "email": "gonzalo.monetta@gmail.com"
-    }
+
 ]
