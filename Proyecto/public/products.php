@@ -14,6 +14,10 @@
 </head>
 <body>
 
+<header>
+    <?php include 'header.php'; ?>
+</header>
+
 <div class="products_container_sm">
     <p>Productos</p>
 </div>

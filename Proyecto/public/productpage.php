@@ -16,6 +16,10 @@
 </head>
 <body>
 
+<header>
+    <?php include 'header.php'; ?>
+</header>
+
 <?php
     $json_data = file_get_contents('../products.json');
 

@@ -30,9 +30,10 @@
 </head>
 <body>
 
-<div class="header">
-      <!--Import header-->
-  </div>
+<header>
+    <?php include 'header.php'; ?>
+</header>
+
 <!--Start authentication-->
 
   <!--Login-->
