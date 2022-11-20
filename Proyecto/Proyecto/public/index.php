@@ -11,25 +11,27 @@
     <!--Scripts-->
         <script src="script.js"></script>
 </head>
-<body>
+<body class="body_rb">
     <div class="container_rb">
-        <div id="header_rb" class="header_rb">
+<!--         <div id="header_rb" class="header_rb">
         
             <div class="h_home_rb">
-                <img src="./image/La_Harinera_logo_rb.png" alt="" srcset="" class="logo_header_rb">
+                <a href="index.php"><img src="./image/La_Harinera_logo_rb.png" alt="" srcset="" class="logo_header_rb"></a>
                
                 <div class="h_opciones_rb">
                     <a href="#h_home_rb">Inicio</a>
-                    <a>Empresa</a> <!-- es el about us de juan-->
+                    <a>Empresa</a> 
                     <a>Productos</a>
-                    <a>Contacto</a> <!-- va al footer de adolfensen-->
-                    <a href="recibe.php">Ingreso</a> <!-- es el login de santi-->
+                    <a>Contacto</a> 
+                    <a href="recibe.php">Ingreso</a> 
                 </div>
 
             </div>
         
-        </div>
+        </div> -->
         
+        <?php include 'header.php'; ?>
+
         <div class="section_rb">
             
             <div class="landing_rb">
@@ -54,6 +56,7 @@
               </div>
            </div>        
         </div>
+        
     </div>
     
 </body>
