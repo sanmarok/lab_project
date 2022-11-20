@@ -480,7 +480,7 @@
 
 /*End productpage*/
 
-/*Start index and footer*/
+/*Start index and header*/
     .body_rb{
         width: 100%;
         min-height: 100vh;
@@ -602,4 +602,4 @@
         height: 100px;
         width: 100px;
     }
-/*End index and footer*/
+/*End index and header*/
