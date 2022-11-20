@@ -1,3 +1,9 @@
 [
-
+    {
+        "username": "santiago.martinez",
+        "password": "$2y$10$mx5SPqdrZKYthUxNV4pNBuyP\/A3YCjnEPW.0XnYIQzDHTd1i553nG",
+        "name": "Santiago",
+        "lastname": "Martinez",
+        "email": "santiago.martinez@gmail.com"
+    }
 ]
