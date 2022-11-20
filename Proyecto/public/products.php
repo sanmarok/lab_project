@@ -14,40 +14,43 @@
 </head>
 <body>
 
-<header>
-    <?php include 'header.php'; ?>
-</header>
+    <header>
+        <?php 
+            session_start();
+            include 'header.php'; 
+        ?>
+    </header>
 
-<div class="products_container_sm">
-    <p>Productos</p>
-</div>
+    <div class="products_container_sm">
+        <p>Productos</p>
+    </div>
 
-<div class="products_table_sm">
-    <?php
+    <div class="products_table_sm">
+        <?php
 
-        $json_data = file_get_contents('../products.json');
+            $json_data = file_get_contents('../products.json');
 
-        $storageproducts = json_decode($json_data,true);
+            $storageproducts = json_decode($json_data,true);
 
-        foreach ($storageproducts as $product) {
-            echo('        
-            <a id= "link" href="productpage.php?product='.$product['nombre'].'" target="_blank">
-                <div class="product_card_sm">
-                    <img src="../public/image/'.$product['imagen'].'" alt="" srcset="">
-                    <div class="product_text_sm">
-                        <p class="product_name">'.$product['nombre'].'</p>
-                        <br>
-                        <p class="product_description">'.$product['descrip'].'</p>
-                        <br>
-                        <p class="product_price">Precio: $'.$product['preciokilo'].'/'.$product['unit'].'</p>
-                        
+            foreach ($storageproducts as $product) {
+                echo('        
+                <a id= "link" href="productpage.php?product='.$product['nombre'].'" target="_blank">
+                    <div class="product_card_sm">
+                        <img src="../public/image/'.$product['imagen'].'" alt="" srcset="">
+                        <div class="product_text_sm">
+                            <p class="product_name">'.$product['nombre'].'</p>
+                            <br>
+                            <p class="product_description">'.$product['descrip'].'</p>
+                            <br>
+                            <p class="product_price">Precio: $'.$product['preciokilo'].'/'.$product['unit'].'</p>
+                            
+                        </div>
                     </div>
-                </div>
-            </a>'
-        );
-        }
-    ?>
+                </a>'
+            );
+            }
+        ?>
 
-</div>
+    </div>
 </body>
 </html>

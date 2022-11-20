@@ -34,7 +34,10 @@
         </div> -->
         
         <header>
-            <?php include 'header.php'; ?>
+            <?php 
+                session_start();
+                include 'header.php'; 
+            ?>
         </header>
 
         <div class="section_rb">

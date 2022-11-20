@@ -30,9 +30,12 @@
 </head>
 <body>
 
-<header>
-    <?php include 'header.php'; ?>
-</header>
+    <header>
+        <?php 
+            session_start();
+            include 'header.php'; 
+        ?>
+    </header>
 
 <!--Start authentication-->
 
