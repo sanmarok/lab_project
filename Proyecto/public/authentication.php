@@ -42,7 +42,7 @@
         <img src="./image/la_harinera_favicon.png" alt="" srcset="">
         <form action="authentication.php?success=1" method="post" id="form_login_sm">
           <h3>Bienvenido</h3>
-          <label for="user">Usuario o email</label>
+          <label for="user">Usuario</label>
           <input type="text" name="username" id="username" required>
           <label for="user">Contraseña</label>
           <input type="password" name="password" id="pass" required>
