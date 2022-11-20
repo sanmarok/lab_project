@@ -45,6 +45,5 @@
     ?>
 
 </div>
-<a href="http://" target="_blank" rel="noopener noreferrer"></a>
 </body>
 </html>
