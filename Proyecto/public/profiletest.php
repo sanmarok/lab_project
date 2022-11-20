@@ -7,7 +7,7 @@
 
     if(isset($_GET['logout'])){
         unset($_SESSION['user']);
-        header("location: index.html"); exit();
+        header("location: index.php"); exit();
     }
 ?>
 
