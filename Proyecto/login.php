@@ -24,7 +24,7 @@
                     if(password_verify($this->password, $user['password'])){
                         session_start();
                         $_SESSION['user'] = $this->username;
-                        header("location:profiletest.php"); exit();
+                        header("location:profile.php"); exit();
                     }
                 }
             }
