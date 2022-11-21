@@ -603,3 +603,12 @@
         width: 100px;
     }
 /*End index and header*/
+
+/*Start footer*/
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*End footer*/
