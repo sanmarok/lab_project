@@ -1,0 +1,96 @@
+[
+    {
+        "idProducto": "AAA001",
+        "nombre": "Estupenda - Harina de Trigo 000",
+        "preciokilo" : 1200,
+        "unit" : "bolsa",
+        "descrip": "Nuestra HARINA 000 Es una harina de gran Rendimiento. Su alto% de absorción, permite agregar 60% de agua a la harina durante el amasado, obteniendo mucho más producto, con la misma cantidad de harina. El tiempo de amasado necesario para lograr integrar el gluten es de aproximadamente 8 minutos, lo que permite reducir tiempos en la fabricación, ayudando al MAESTRO a obtener mejores productos en menos tiempo.Podemos ajustar su aptitud a las necesidades de uso de cada cliente, mediante el agregado de mejoradores especialmente formulados en nuestro laboratorio, que logran optimizar su performance, para que se adapte a los diferentes métodos de panificación, con fermentación larga (en tablas) y fermentación corta (directo y semidirecto)",
+        "imagen": "Estupenda_Harina_de _Trigo_000.png",
+        "properties":{
+            "propiety1": "Harina de trigo",
+            "propiety2": "Bolsas de 25kg"
+        }
+    },
+    {
+        "idProducto": "AAA002",
+        "nombre": "Estupenda - Harina de Trigo 0000",
+        "preciokilo" : 1500,
+        "unit" : "bolsa",
+        "descrip": "Nuestra harina 0000 es una harina de alta calidad, con bajo contenido de minerales y de color blanco cremoso característico. Es un producto de granulometría más fina que la harina “Tipo 000”, y se elabora a partir de una cuidadosa selección de los productos más blancos obtenidos durante las etapas de cernido y molienda. Sus propiedades reológicas brindan masas elásticas y de fácil maquinabilidad.",
+        "imagen": "Estupenda_Harina_de _Trigo_0000.png",
+        "properties":{
+            "propiety1": "Harina de trigo",
+            "propiety2": "Bolsas de 25kg"
+        }
+    },
+    {
+        "idProducto": "AAA003",
+        "nombre": "Estupenda - Harina Tapera",
+        "preciokilo" : 2000,
+        "unit" : "bolsa",
+        "descrip": "Nuestra HARINA ESTUPENDA TAPERA ®, está especialmente producida para la fabricación de Tapas de Empanadas y Tapas de Tartas, de alta calidad. Es una harina de muy alta calidad, con un reducido contenido de minerales y un color blanco intenso. Es verificada permanentemente en nuestro laboratorio con análisis específicos y visualización con microscopía y reactivos. Se trata de un producto de granulometría más fina que las harinas “Tipo 000 y 0000” y las tapas fabricadas con nuestra harina, tienen una mayor vida en góndola y una presencia en el envase muy agradable por su color blanco extremo. También tiene una excelente facilidad de uso en la industria por su elasticidad controlada.",
+        "imagen": "Estupenda_Harina_Tapera.png",
+        "properties":{
+            "propiety2": "Bolsas de 25kg"
+        }
+    },
+    {
+        "idProducto": "AAA004",
+        "nombre": "Estupenda - Semolín",
+        "preciokilo" : 1800,
+        "unit" : "bolsa",
+        "descrip": "El SEMOLIN ESTUPENDA, es un producto tope en calidad. Tiene una granulometría mayor a la de las harinas, y al tacto esto se percibe claramente. Nuestro semolín, se produce mediante un triple proceso. Purificando las partículas de endospermo (harina), Calibrando su tamaño y nuevamente Purificando, con máquinas especialmente diseñadas, para garantizar que nuestro SEMOLIN sea extremadamente puro y de granulometría muy establ",
+        "imagen": "Estupenda_Semolin.png",
+        "properties":{
+            "propiety2": "Bolsas de 25kg"
+        }
+    },
+    {
+        "idProducto": "BBB001",
+        "nombre": "Estupenda - Salvado De Trigo",
+        "preciokilo" : 3200,
+        "unit" : "bolsa",
+        "descrip": "Es un producto en forma de láminas finamente procesadas, que provienen de las capas externas del grano. Contiene celulosa, polisacáridos, proteínas, grasas y minerales, y es el producto ideal para agregar en los preparados que requieren rusticidad, crocancia, alta proteína y fibra y buena digestibilidad. También se lo puede consumir crudo, como complemento nutricional.",
+        "imagen": "Estupenda_Salvado_de_Trigo.png",
+        "properties":{
+            "propiety2":"Bolsas de 20kg"
+        }
+    },
+    {
+        "idProducto": "BBB002",
+        "nombre": "Estupenda - Harina Integral",
+        "preciokilo" : 2400,
+        "unit" : "bolsa",
+        "descrip": "Es una harina con alto contenido de salvado fino, que favorece la digestibilidad de los productos elaborados. Su granulometría calibrada y uniforme, facilita el amasado e hidratación de la masa, y permite producir piezas más armónicas, más crujientes y más sabrosas Está especialmente indicada para elaborar productos horneados y cocidos de gran valor nutricional, conteniendo altos niveles de fibras y vitaminas.Se usa para hacer pan integral, pan de cereales, fideos integrales y toda aquella receta que imagines, en la que busques obtener un producto sabroso, crocante y muy digestible, sin necesidad de agregarle harina blanca u otros ingredientes adicionales.",
+        "imagen": "Estupenda_Harina_Integral.png",
+        "properties":{
+            "propiety2":"Bolsas de 25kg"
+        }
+    },
+    {
+        "idProducto": "BBB003",
+        "nombre": "Estupendo - Germen De Trigo",
+        "preciokilo" : 2000,
+        "unit" : "bolsa",
+        "descrip": "El germen es el embrión del trigo, de donde nacen las nuevas plantas. Es su principal fuente de nutrientes, y la provee de la energía para hacer crecer las raíces, desarrollar el tallo y dar vida. Es una fuente natural de innumerables proteínas y vitaminas. Entre ellas, es una fuente muy importante de vitamina E, uno de los más formidables antioxidantes naturales, capaz de retrasar o prevenir el envejecimiento celular prematuro. Su suave sabor a nueces frescas, destaca y aromatiza las comidas, dándole un agradable sabor. Se puede consumir como agregado en las comidas, reemplazando quesos o aderezos, y también crudo o mezclado con líquidos nutricionales, jugos y yogures.",
+        "imagen": "Estupenda_Germen_de_Trigo.png",
+        "properties":{
+            "propiety2":"Bolsas de 25kg"
+        }
+    },
+    {
+        "idProducto": "BBB004",
+        "nombre": "Pellets de Afrechillo",
+        "preciokilo" : 800,
+        "unit" : "kg",
+        "descrip": "Entendido como un producto más fino obtenido por la molienda de las capas menos superficiales del pericarpio, con partes del albumen (Endospermo y Perderme), de acuerdo al artículo 671 de la CAA, del Código Alimentario de Argentina.",
+        "imagen": "Pellets_de_Afrechillo.jpg",
+        "properties":{
+            "propiety1":"Parámetros orgánicos: polvo escamoso granular, olor y sabor suave a cereal, color marrón uniforme.",
+            "propiety2":"Ingredientes: Afrechillo de trigo Ausencia de Partículas extrañas, partículas metálicas e insectos.",
+            "propiety3":"Conservación: En un lugar fresco, seco y ventilado.",
+            "propiety4":"Vida útil: Consumir preferentemente dentro de los 180 días de fecha de elaboración.",
+            "propiety5":"Empleo: Este subproducto está destinado a la alimentación animal exclusivamente, se caracteriza por poseer elevado valor proteínico, altos niveles de fibra y gran valor energético."
+        }
+    }
+]

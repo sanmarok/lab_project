@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,37 +14,32 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="            sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">         <!-- Si andas laburando fuera de csc esto te agrega los estilos de boostrap -->
     <!--Scripts-->
         <script src="script.js"></script>
-
 </head>
 
-<body>
   <div class="container my-5">
-
     <footer class="text-center text-lg-start" style="background-color: #db6930;">
       <div class="container d-flex justify-content-center py-5"> <h2>
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <a href="facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          <a href="facebook.com" target="_blank" rel="noopener noreferrer"><a class="fab fa-facebook-f"></a></a>
         </button>
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <a href="youtube.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+          <a href="youtube.com" target="_blank" rel="noopener noreferrer"><a class="fab fa-youtube"></a></a>
         </button> 
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <a class="fab fa-instagram" href="https://www.instagram.com/reminn78/?hl=es-la"></a>
+          <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
         </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;"></button>
-          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></h2></a>
+        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+          <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></h2></a>
         </button>
       </div>
       <!-- Copyright -->
-      <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0);">
         © 2022 Copyright:
       <h2> <a class="text-white" href="https://www.instagram.com/reminn78/?hl=es-la">Instagram del Proveedor</a></h2>
       </div>
       <!-- Copyright -->
-    </footer>
-    
   </div>
-
-
-</body>
 <!-- End of .container -->
+
+
+
