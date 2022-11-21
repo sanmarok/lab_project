@@ -52,5 +52,11 @@
             --grey3: #BBBBBB;
             --lightpink3: #FFE3D8
     }
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+    
 
     
