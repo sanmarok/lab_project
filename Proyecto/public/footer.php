@@ -20,13 +20,13 @@
     <footer class="text-center text-lg-start" style="background-color: #db6930;">
       <div class="container d-flex justify-content-center py-5"> <h2>
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <a href="facebook.com" target="_blank" rel="noopener noreferrer"><a class="fab fa-facebook-f"></a></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
         </button>
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <a href="youtube.com" target="_blank" rel="noopener noreferrer"><a class="fab fa-youtube"></a></a>
+          <a href="https://youtube.com/?lang=es" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
         </button> 
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/reminn78/?hl=es-la" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
         </button>
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
           <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></h2></a>
@@ -35,7 +35,7 @@
       <!-- Copyright -->
       <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0);">
         © 2022 Copyright:
-      <h2> <a class="text-white" href="https://www.instagram.com/reminn78/?hl=es-la">Instagram del Proveedor</a></h2>
+      <h2> <a class="text-white" href="https://www.instagram.com/reminn78/?hl=es-la">Contacto del Proveedor</a></h2>
       </div>
       <!-- Copyright -->
   </div>
