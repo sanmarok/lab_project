@@ -1,0 +1,77 @@
+p {
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+ }
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    color:black;
+    text-align: center;
+    font-size: 38px;
+}
+h4{
+    color:black;
+    text-align: center;
+    font-size: 35px;
+}
+h5{
+    color:black;
+    text-align: center;
+    font-size: 30px;  
+}
+h6{
+    color:black;
+    text-align: center;
+    font-size: 30px;     
+}
+body{
+    background: url(https://img.freepik.com/foto-gratis/mesa-fondo_1404-26.jpg?w=2000) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.fondo{
+    background-position: center;
+    width:100%;
+    background-color:black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sobre1{
+    background-position: center;
+    width:300px;
+    background-color:white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.texto1{
+    text-align: center;
+    font-size: 19px;
+}
+.sobre2{
+    background-position: center;
+    width:300px;
+    background-color:white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.texto2{
+    text-align: center;
+    font-size: 16px;
+}
+

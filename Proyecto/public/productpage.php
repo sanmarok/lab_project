@@ -42,11 +42,11 @@
                     
             
                         foreach($product['properties'] as $property){
-                            echo('<p class="data_tabulated">'.$property.'</p>');
+                            echo('<p class="data_tabulated">* '.$property.'</p>');
                         }
 
                     echo('
-                        <p class="price_tabulated">Precio: '.$product['preciokilo'].'/'.$product['unit'].'</p>
+                        <p class="price_tabulated">Precio: $'.$product['preciokilo'].'/'.$product['unit'].'</p>
                             </div>
                         </div>
                     ');
@@ -55,10 +55,11 @@
             }
     ?>
 
-    <?php
-
+<footer id="footer">
+    <?php 
+        include('footer.php');
     ?>
-
+</footer>
 
 </body>
 </html>

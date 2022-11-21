@@ -31,9 +31,9 @@
             <a href="index.php"><img src="./image/La_Harinera_logo_rb.png" alt="" srcset="" class="logo_header_rb"></a>
             <div class="h_opciones_rb">
                 <a href="index.php">Inicio</a>
-                <a>Empresa</a> <!-- es el about us de juan-->
+                <a href="aboutus.php">Empresa</a> <!-- es el about us de juan-->
                 <a href="products.php">Productos</a>
-                <a>Contacto</a> <!-- va al footer de adolfensen-->
+                <a href="#footer">Contacto</a> <!-- va al footer de adolfensen-->
                 <a href="authentication.php">Ingreso</a> <!-- es el login de santi-->
             </div>
         </div>
@@ -44,9 +44,9 @@
             <a href="index.php"><img src="./image/La_Harinera_logo_rb.png" alt="" srcset="" class="logo_header_rb"></a>
             <div class="h_opciones_rb">
                 <a href="index.php">Inicio</a>
-                <a>Empresa</a> <!-- es el about us de juan-->
+                <a href="aboutus.php">Empresa</a> <!-- es el about us de juan-->
                 <a href="products.php">Productos</a>
-                <a>Contacto</a> <!-- va al footer de adolfensen-->
+                <a href="#footer">Contacto</a> <!-- va al footer de adolfensen-->
                 <a href="?logout">Cerrar sesion</a> <!-- es el login de santi-->
             </div>
         </div>

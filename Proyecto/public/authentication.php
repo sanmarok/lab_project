@@ -56,28 +56,37 @@
         </form>
       </div>
 
-  <!--Register-->
-    <div class="conteiner_form_register_sm" id="conteiner_form_register_sm">
-      <img src="./image/la_harinera_favicon.png" alt="" srcset="">
-      <form action="" method="post" id="form_register_sm">
-        <h3>Registrate</h3>
-        <label for="user">Nombre</label>
-        <input type="text" name="name" id="name" required>
-        <label for="user">Apellido</label>
-        <input type="text" name="lastname" id="lastname" required>
-        <label for="user">Usuario</label>
-        <input type="text" name="username" id="username" autocomplete="off" required>
-        <label for="mail">Email</label>
-        <input type="email" name="mail" id="mail" required>
-        <label for="user">Contraseña</label>
-        <input type="password" name="password" id="pass" required>
-        <button type="submit" name="submit_register">Registrarse</button>
-        <p class="register_error_sm"><?php echo @$user_register->error ?></p>
-        <p class="register_success_sm"><?php echo @$user_register->success ?></p>
-        <a href="#" onclick="changeformtologin()"><p>Ingresa en La Harinera</p></a>
-      </form>
+
+    <!--Register-->
+      <div class="conteiner_form_register_sm" id="conteiner_form_register_sm">
+        <img src="./image/la_harinera_favicon.png" alt="" srcset="">
+        <form action="" method="post" id="form_register_sm">
+          <h3>Registrate</h3>
+          <label for="user">Nombre</label>
+          <input type="text" name="name" id="name" required>
+          <label for="user">Apellido</label>
+          <input type="text" name="lastname" id="lastname" required>
+          <label for="user">Usuario</label>
+          <input type="text" name="username" id="username" autocomplete="off" required>
+          <label for="mail">Email</label>
+          <input type="email" name="mail" id="mail" required>
+          <label for="user">Contraseña</label>
+          <input type="password" name="password" id="pass" required>
+          <button type="submit" name="submit_register">Registrarse</button>
+          <p class="register_error_sm"><?php echo @$user_register->error ?></p>
+          <p class="register_success_sm"><?php echo @$user_register->success ?></p>
+          <a href="#" onclick="changeformtologin()"><p>Ingresa en La Harinera</p></a>
+        </form>
+    </div>
   </div>
 
 <!--End authentication--> 
+
+<footer id="footer">
+    <?php 
+        include('footer.php');
+    ?>
+</footer>
+
 </body>
 </html>
