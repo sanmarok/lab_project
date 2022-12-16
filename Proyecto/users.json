@@ -5,5 +5,33 @@
         "name": "Santiago",
         "lastname": "Martinez",
         "email": "santiago.martinez@gmail.com"
+    },
+    {
+        "username": "A",
+        "password": "$2y$10$lnnXLBK8wE4Ib1Tbewr5RexocAhgg\/UIi.Q8i3NfJS38F3aNsAwEu",
+        "name": "A",
+        "lastname": "A",
+        "email": "A@A"
+    },
+    {
+        "username": "remo",
+        "password": "$2y$10$uZu8c8qw7WzoLju5qYEeCuWd8x.lSjvxtt8Nhk0NdN67UuV7L0gr6",
+        "name": "Remo",
+        "lastname": "Benedetto",
+        "email": "remobenedetto@gmail.com"
+    },
+    {
+        "username": "listcodename",
+        "password": "$2y$10$cL8p.k.ktw4jwy.7uymGU.YM1qIXU7qKYgwfifsbnvlSc1\/5P6oNm",
+        "name": "Angel",
+        "lastname": "Schulze",
+        "email": "angelzero16@hotmail.com"
+    },
+    {
+        "username": "B",
+        "password": "$2y$10$XNApEFI6s8cWRVlbPIyvOOEG2iAlVFDvCsYydNbIj72EipGBWEPHW",
+        "name": "B",
+        "lastname": "B",
+        "email": "B@B"
     }
 ]

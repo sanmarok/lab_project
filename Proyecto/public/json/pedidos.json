@@ -1,0 +1,162 @@
+[
+    {
+        "idPedido": 1,
+        "usuario": "listcodename",
+        "idProducto": 1,
+        "cantidad": 5,
+        "direccion": "LAS HERAS 534",
+        "total": 3400,
+        "time": "2022-11-04",
+        "estado": -1
+    },
+    {
+        "idPedido": 2,
+        "usuario": "listcodename",
+        "idProducto": 1,
+        "cantidad": 5,
+        "direccion": "LAS HERAS 534",
+        "total": 3400,
+        "time": "2022-11-19",
+        "estado": 1
+    },
+    {
+        "idPedido": 3,
+        "usuario": "listcodename",
+        "idProducto": 1,
+        "cantidad": 4,
+        "direccion": "Rivadavia 687",
+        "total": 1100,
+        "time": "2022-11-20",
+        "estado": -1
+    },
+    {
+        "idPedido": 4,
+        "usuario": "listcodename",
+        "idProducto": 2,
+        "cantidad": 4,
+        "direccion": "Rivadavia 687",
+        "total": 1140,
+        "time": "2022-11-20",
+        "estado": -1
+    },
+    {
+        "idPedido": 5,
+        "usuario": "listcodename",
+        "idProducto": 4,
+        "cantidad": 8,
+        "direccion": "Rivadavia 687",
+        "total": 12720,
+        "time": "2022-11-20",
+        "estado": 0
+    },
+    {
+        "idPedido": 6,
+        "usuario": "listcodename",
+        "idProducto": 2,
+        "cantidad": 7,
+        "direccion": "Las heras 536",
+        "total": 1995,
+        "time": "2022-11-20",
+        "estado": 0
+    },
+    {
+        "idPedido": 7,
+        "usuario": "santiago.martinez",
+        "idProducto": 1,
+        "cantidad": 6,
+        "direccion": "santiago.martinez@gmail.com",
+        "total": 7200,
+        "time": "2022-11-23",
+        "estado": -1
+    },
+    {
+        "idPedido": 8,
+        "usuario": "santiago.martinez",
+        "idProducto": 3,
+        "cantidad": 7,
+        "direccion": "santiago.martinez@gmail.com",
+        "total": 14000,
+        "time": "2022-11-23",
+        "estado": -1
+    },
+    {
+        "idPedido": 9,
+        "usuario": "santiago.martinez",
+        "idProducto": 6,
+        "cantidad": 3,
+        "direccion": "santiago.martinez@gmail.com",
+        "total": 7200,
+        "time": "2022-11-23",
+        "estado": -1
+    },
+    {
+        "idPedido": 10,
+        "usuario": "santiago.martinez",
+        "idProducto": 5,
+        "cantidad": 1,
+        "direccion": "santiago.martinez@gmail.com",
+        "total": 3200,
+        "time": "2022-11-23",
+        "estado": -1
+    },
+    {
+        "idPedido": 11,
+        "usuario": "santiago.martinez",
+        "idProducto": 1,
+        "cantidad": 20,
+        "direccion": "santiago.martinez@gmail.com",
+        "total": 24000,
+        "time": "2022-11-23",
+        "estado": -1
+    },
+    {
+        "idPedido": 12,
+        "usuario": "remo",
+        "idProducto": 2,
+        "cantidad": 3,
+        "direccion": "remobenedetto@gmail.com",
+        "total": 4500,
+        "time": "2022-11-23",
+        "estado": -1
+    },
+    {
+        "idPedido": 13,
+        "usuario": "remo",
+        "idProducto": 1,
+        "cantidad": 5,
+        "direccion": "remobenedetto@gmail.com",
+        "total": 6000,
+        "time": "2022-11-23",
+        "estado": 0
+    },
+    {
+        "idPedido": 14,
+        "usuario": "B",
+        "idProducto": 4,
+        "cantidad": 3,
+        "direccion": "Alberdi 123",
+        "total": 5400,
+        "time": "2022-11-23",
+        "estado": -1
+    },
+    {
+        "idPedido": 15,
+        "usuario": "santiago.martinez",
+        "idProducto": 4,
+        "cantidad": 6,
+        "direccion": "santiago.martinez@gmail.com",
+        "total": 10800,
+        "time": "2022-11-24",
+        "estado": -1
+    },
+    {
+        "idPedido": 16,
+        "usuario": "santiago.martinez",
+        "idProducto": 5,
+        "cantidad": 1,
+        "direccion": "afaffasf",
+        "total": 3200,
+        "time": "2022-11-24",
+        "estado": -1
+    }
+]

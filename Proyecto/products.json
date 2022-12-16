@@ -1,6 +1,6 @@
 [
     {
-        "idProducto": "AAA001",
+        "idProducto": "1",
         "nombre": "Estupenda - Harina de Trigo 000",
         "preciokilo" : 1200,
         "unit" : "bolsa",
@@ -12,7 +12,7 @@
         }
     },
     {
-        "idProducto": "AAA002",
+        "idProducto": "2",
         "nombre": "Estupenda - Harina de Trigo 0000",
         "preciokilo" : 1500,
         "unit" : "bolsa",
@@ -24,7 +24,7 @@
         }
     },
     {
-        "idProducto": "AAA003",
+        "idProducto": "3",
         "nombre": "Estupenda - Harina Tapera",
         "preciokilo" : 2000,
         "unit" : "bolsa",
@@ -35,7 +35,7 @@
         }
     },
     {
-        "idProducto": "AAA004",
+        "idProducto": "4",
         "nombre": "Estupenda - Semolín",
         "preciokilo" : 1800,
         "unit" : "bolsa",
@@ -46,7 +46,7 @@
         }
     },
     {
-        "idProducto": "BBB001",
+        "idProducto": "5",
         "nombre": "Estupenda - Salvado De Trigo",
         "preciokilo" : 3200,
         "unit" : "bolsa",
@@ -57,7 +57,7 @@
         }
     },
     {
-        "idProducto": "BBB002",
+        "idProducto": "6",
         "nombre": "Estupenda - Harina Integral",
         "preciokilo" : 2400,
         "unit" : "bolsa",
@@ -68,7 +68,7 @@
         }
     },
     {
-        "idProducto": "BBB003",
+        "idProducto": "7",
         "nombre": "Estupendo - Germen De Trigo",
         "preciokilo" : 2000,
         "unit" : "bolsa",
@@ -79,7 +79,7 @@
         }
     },
     {
-        "idProducto": "BBB004",
+        "idProducto": "8",
         "nombre": "Pellets de Afrechillo",
         "preciokilo" : 800,
         "unit" : "kg",
